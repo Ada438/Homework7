@@ -9,8 +9,8 @@ public class Main {
         var salary = 0;
         while (salary<2459000) {
             salary=salary+15000;
-            i++;}
-        System.out.println("Месяц " + i + ", сумма накоплений равна " + salary + " рублей");
+            i++;
+        System.out.println("Месяц " + i + ", сумма накоплений равна " + salary + " рублей");}
 
         System.out.println("Задача 2");
         var a=1;
@@ -19,10 +19,10 @@ public class Main {
             a++;
         }
         System.out.println();
-        while (a>1) {
-            a--;
-            System.out.print(a+" ");
+        for (int n=10; n>=1; n--) {
+            System.out.print(n+" ");
         }
+        System.out.println();
         System.out.println("Задача 3");
         var population = 12_000_000;
         var year = 1;
